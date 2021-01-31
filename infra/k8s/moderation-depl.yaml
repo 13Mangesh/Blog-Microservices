@@ -15,7 +15,6 @@ spec:
       containers:
         - name: moderation
           image: 13mangesh/moderation:latest
-          imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service
